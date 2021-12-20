@@ -37,10 +37,10 @@ namespace IdentityServerAspNetIdentity
 
             try
             {
-                var seed = args.Contains("/seed");
+                var seed = args.Contains("seed");
                 if (seed)
                 {
-                    args = args.Except(new[] { "/seed" }).ToArray();
+                    args = args.Except(new[] { "seed" }).ToArray();
                 }
 
                 var host = CreateHostBuilder(args).Build();

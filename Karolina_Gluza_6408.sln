@@ -5,8 +5,6 @@ VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8F7096DB-38FC-448F-B454-8AB6A514E2AE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityServer", "src\IdentityServer\IdentityServer.csproj", "{5809F2B2-532E-4D09-82C7-3FD578670E52}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api", "src\Api\Api.csproj", "{FA6B4BE1-12C7-43F5-954E-D16DC0BAFDE0}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Client", "src\Client\Client.csproj", "{8351C4DA-CEC6-43B6-97A4-34522027994C}"
@@ -15,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MvcClient", "src\MvcClient\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityServerAspNetIdentity", "src\IdentityServerAspNetIdentity\IdentityServerAspNetIdentity.csproj", "{3216BF2E-B087-4AA9-8DCC-901678C850AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JavaScriptClient", "src\JavaScriptClient\JavaScriptClient.csproj", "{07FE6DBC-559F-48DD-A247-90A317F2EB54}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JavaScriptClient", "src\JavaScriptClient\JavaScriptClient.csproj", "{07FE6DBC-559F-48DD-A247-90A317F2EB54}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +21,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5809F2B2-532E-4D09-82C7-3FD578670E52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5809F2B2-532E-4D09-82C7-3FD578670E52}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5809F2B2-532E-4D09-82C7-3FD578670E52}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5809F2B2-532E-4D09-82C7-3FD578670E52}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FA6B4BE1-12C7-43F5-954E-D16DC0BAFDE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FA6B4BE1-12C7-43F5-954E-D16DC0BAFDE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA6B4BE1-12C7-43F5-954E-D16DC0BAFDE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -52,7 +46,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{5809F2B2-532E-4D09-82C7-3FD578670E52} = {8F7096DB-38FC-448F-B454-8AB6A514E2AE}
 		{FA6B4BE1-12C7-43F5-954E-D16DC0BAFDE0} = {8F7096DB-38FC-448F-B454-8AB6A514E2AE}
 		{8351C4DA-CEC6-43B6-97A4-34522027994C} = {8F7096DB-38FC-448F-B454-8AB6A514E2AE}
 		{DD318C32-B9F0-4783-862A-F1A9652D01BF} = {8F7096DB-38FC-448F-B454-8AB6A514E2AE}
